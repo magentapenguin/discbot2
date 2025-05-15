@@ -1,7 +1,7 @@
 from interactions import Client, Intents, listen, slash_command, slash_option, OptionType, SlashContext, AutocompleteContext
 from interactions.api.events import MessageCreate
 from interactions.api.voice.audio import Audio
-import os, glob, base64, supabase, storage3.exceptions
+import os, glob, supabase, storage3.exceptions
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from dotenv import load_dotenv
 
