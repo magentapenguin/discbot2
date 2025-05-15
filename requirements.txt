@@ -1,2 +1,2 @@
-supabase=2.15.1
-discord.py-interactions[voice]=5.14.0
+supabase==2.15.1
+discord.py-interactions[voice]==5.14.0
